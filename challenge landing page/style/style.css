@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#C0C0B6 ;
+    background-color:#E5E1E0 ;
 }
 
 .contenido-principal{
@@ -24,7 +24,7 @@ body{
     justify-content: space-around;
     height: 150px;
     border-bottom: solid 1px;
-    border-bottom-color: #C0C0B6;
+    border-bottom-color: #E5E1E0;
     box-shadow: 0 0 2 0;
     
 }   
@@ -47,8 +47,71 @@ a:hover{
 }
 
 .main{
-    width: 400px;
-    height: 400px;
+
+    display: flex;
+    justify-content:space-between;
     background-color: white;
+    margin:30px 10px 10px 10px;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px 20px 20px 20px;
+    max-height: 700px;
+    max-width: 750px;
+} 
+
+ .slogan p{
+    text-align: center;
+    
+    margin-top: 20px;
+    padding: 10px;
+}
+/*
+.slogan h1{
+    text-align: center;
+} */
+.button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{ 
+    padding: 10px 30px 10px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
 }
 
+.button-1{
+    background-color: black;
+    color: white;
+}
+.button-2{
+    background-color: white;
+    border: solid 2.5px;
+}
+img{
+    max-width: 500px;
+    margin: 05px 05px 20px 20px;
+    border-radius: 10px;
+}
+
+.empresa{
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresa p{
+    text-align: center;
+    text-transform: initial;
+    font-size: 23px;
+    width: 700px;
+    
+}
